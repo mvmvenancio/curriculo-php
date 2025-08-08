@@ -10,21 +10,21 @@ CSS3 – estilização e responsividade
 Font Awesome – ícones para redes sociais e navegação
 
 📂 Estrutura de Pastas
-/curriculoUm/
-│
-├── index.php                 # Página inicial
-├── header.php                # Cabeçalho do site
-├── footer.php                # Rodapé do site
-├── form.php                  # Fomrulário do site
-│   └── css/
-│       └── style.css         # Estilo personalizado
+/curriculoUm/<br>
+│<br>
+├── index.php                 # Página inicial<br>
+├── header.php                # Cabeçalho do site<br>
+├── footer.php                # Rodapé do site<br>
+├── form.php                  # Fomrulário do site<br>
+│   └── css/<br>
+│       └── style.css         # Estilo personalizado<br>
 
 🚀 Como Executar Localmente
 Instale um servidor local (VertrigoServ).
 Coloque a pasta curriculoUm dentro do diretório www.
 
 Acesse no navegador:
-http://localhost/curriculoUm/
+http://localhost/curriculo/
 
 📌 Funcionalidades
 Cabeçalho e rodapé dinâmicos incluídos via include do PHP.
