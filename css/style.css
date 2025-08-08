@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+  /* cabeçalho */
+header {
+    background-color: #0078d4;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+  /* seções */
+section {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+section a {
+  color: black; /* links dentro da seção */
+}
+  /* títulos das seções */
+h2 {
+    color: #0078d4;
+    font-size: 24px;
+}
+
+  /* lista de habilidades */
+ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+  /* margens para melhor espaçamento */
+p, ul {
+    margin-bottom: 10px;
+}
+
+  /* links */
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+  /* links de e-mail */
+a[href^="mailto:"] {
+    color: #fff;
+}
+
+  /* rodapé */
+footer {
+    text-align: center;
+    background-color: #0078d4;
+    color: #fff;
+    padding: 10px 0;
+}
+/* tamanho dos ícones de redes sociais no rodapé */
+.social-icons i {
+  font-size: 34px; /* Tamanho do ícone */
+  margin: 0 20px; /* Espaçamento horizontal entre os ícones */
+}
+/* centralizar seu conteúdo */
+.center-content {
+  text-align: center;
+}
+
+/* botão de download */
+.download-button {
+  display: inline-block;
+  background-color: #0078d4; /* Altere para a cor desejada */
+  color: #fff; /* Cor do texto do botão */
+  padding: 10px 20px; /* Espaçamento interno do botão */
+  text-decoration: none;
+  border-radius: 5px; /* Borda arredondada */
+  margin-top: 10px; /* Espaço acima do botão */
+}
+
+.download-button i {
+  margin-right: 5px; /* Espaçamento entre o ícone e o texto */
+}
+
+#contato {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 50vh; /* Altura mínima de altura da janela */
+ /* height: 200px; /* Defina a altura desejada */
+ /* resize: vertical; /* Permite redimensionar verticalmente */
+}
+
+/* Aumentar o tamanho do campo da proposta */
+#proposta {
+  left: 100px;
+  height: 100px;
+  resize: quadrant;
+}
+button.azul {
+  background-color: #0078d4;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
